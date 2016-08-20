@@ -1,0 +1,45 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: Proxima Nova Alt;
+  /*background-color:  #212f3c ;*/
+}
+.example-appear {
+   opacity: 0.1;
+}
+
+.example-appear.example-appear-active {
+   opacity: 1;
+   transition: opacity 2000ms ease-in;
+}
+.input{background: #000; color: #fff; margin: 0px; padding-right: 5px;
+  width: 100%; padding: 0px; font-size: 5em; text-align: right;
+  font-family: Proxima Nova Alt; font-weight:lighter; border: none;
+}
+.display{background: #000; color: #fff; margin: 0px;
+  width: 100%;padding-right: 5px;
+}
+.me{ height: 600px; width: 31%;background-color: #fff;
+  margin: 10px; padding:0px; border: 2px solid #a3a3a3;
+  box-shadow: 0px 3px 4px 5px #dfede9;
+}
+.btns, .btns-special{height:100px;width:25%;
+  font-size: 2.3em; color: #fff;
+  border: 2px solid #a3a3a3; font-family: Proxima Nova Alt;
+  font-weight: lighter;
+  background:  linear-gradient(to bottom,
+    rgba(252,156,23,1) 0%,
+  rgba(247,126,27,1) 100%);
+}
+.btns-digit:hover, .btns-long:hover{color:rgba(252,156,23,1); background-color: #fff;}
+.btns-digit{height:100px;width:25%; font-size: 2.3em;
+  border: 2px solid #a3a3a3; font-family: Proxima Nova Alt;
+  font-weight: lighter;
+  background-color:#e0e0e7;
+}
+.btns-long{height:100px;width:50%; font-size: 2.3em;
+  border: 2px solid #a3a3a3; font-family: Proxima Nova Alt;
+  font-weight: lighter;
+  background-color:#e0e0e7;
+}
